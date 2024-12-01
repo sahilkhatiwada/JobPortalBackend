@@ -9,7 +9,7 @@ import Job from "../Models/jobModel.js";
 import {
   JobValidationSchema,
   seekerPaginationSchema,
-} from "../validation/job.validation.js";
+} from "../Validation/job.validation.js";
 import { checkMongoIdValidity } from "../middleware/checkMongoIdValidity.js";
 import { checkJobOwnership } from "../middleware/check.job.ownership.js";
 

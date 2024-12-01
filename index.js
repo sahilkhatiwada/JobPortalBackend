@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import connectDB from "./DatabaseConfig/connect.db.js";
 import userRoutes from "./Routes/user.routes.js";
+import jobRoutes from "./Routes/job.routes.js";
 
 dotenv.config();
 
@@ -17,6 +18,7 @@ app.use(express.json());
 // Register routes will be here 
 
 app.use(userRoutes);
+app.use(jobRoutes)
 
 
 //  Start the server
