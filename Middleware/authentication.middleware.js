@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import User from "../models/User.js"; // Import the User model
+import User from "../Models/userModel.js"; // Import the User model
 
 /**
  * Middleware to verify if the user is authenticated as a "seeker".
